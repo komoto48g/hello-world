@@ -1,2 +1,3 @@
 # hello-world
-Test
+
+Test 用レポジトリです．
