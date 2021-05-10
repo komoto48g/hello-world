@@ -1,6 +1,11 @@
 # hello-world
 
 Test 用レポジトリです．
+This repository is personal training
+
+人生と宇宙そしてすべての答えを計算します．
+This module calculates [The Answer of Life, the Universe, and Everything]
+
 
 ## How to install from GitHub
 ```
