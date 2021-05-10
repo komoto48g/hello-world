@@ -23,10 +23,10 @@ setup(
     },
     
     ## Packing all modules in mwx package
-    ## packages = [
-    ##     "",
-    ## ],
-    packages = find_packages(),
+    packages = [
+        "mylibs",
+    ],
+    ## packages = find_packages(),
     
     ## install_requires = [
     ##     'pillow',
@@ -36,11 +36,9 @@ setup(
     ##     'opencv-python==3.4.5.20',
     ## ],
     
-    ## This is necessary for egg distribution to include *.txt files
+    ## This is necessary for egg distribution to include readme files
     package_data={
-        '' : [
-            'README.md',
-        ],
+        'mylibs' : ['README.md'],
     },
     include_package_data=True,
 )
