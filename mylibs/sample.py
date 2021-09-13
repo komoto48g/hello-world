@@ -11,6 +11,10 @@ def  生命と宇宙そして万物についての究極の疑問の答え ():
     of Life, the Universe, and Everything"""
     return 42
 
+def 宇宙の始まりと終わり ():
+    """The beginning and end of the universe"""
+    return 'う'
+
 
 if __name__ == "__main__":
     print(人生と宇宙そしてすべての答え ())
