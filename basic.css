@@ -39,7 +39,7 @@
 	font-weight:bold;
 }
 .memo::after{
-	content:'Memo';
+	content:'ふいメモ';
 	position:absolute;
 	background:#f0f0f080;
 	text-align: center;
