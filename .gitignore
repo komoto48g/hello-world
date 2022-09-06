@@ -1,7 +1,18 @@
 *.jssn
 *.ssn
 *.db
-bin/
+*.lnk
+*.pptx
+*.docx
+*.xlsx
+*.bat
+*.cmd
+*.l
+*.log
+*.out
+*.txt
+Makefile
+exclude_files
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
