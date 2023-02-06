@@ -2,7 +2,10 @@
 # -*- coding: utf-8 -*-
 """setup file
 
-Run the build process by entering 'python setup.py bdist_egg'.
+Run the build process by entering:
+
+>>> python setup.py bdist_egg
+
 If everything works well, you should find a subdirectory named 'dist'
 """
 from setuptools import setup
@@ -14,7 +17,7 @@ setup(
     version = __version__,
     author = __author__,
     author_email = "komoto@jeol.co.jp",
-    description = "Gladys Knight & Pips",
+    description = "Hello world sample program",
     
     ## Description of the package in the distribution
     package_dir = {

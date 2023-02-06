@@ -14,6 +14,10 @@
 Makefile
 exclude_files
 
+# Resources
+docfiles*/
+!requirements.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -25,4 +29,3 @@ lib/
 lib64/
 *.egg-info/
 *.egg
-MANIFEST
