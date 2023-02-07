@@ -16,6 +16,7 @@ exclude_files
 
 # Resources
 docfiles*/
+test*/
 !requirements.txt
 
 # Byte-compiled / optimized / DLL files
