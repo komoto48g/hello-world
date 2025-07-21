@@ -15,7 +15,7 @@ Makefile
 exclude_files
 
 # Resources
-docfiles*/
+site/
 test*/
 !requirements.txt
 
