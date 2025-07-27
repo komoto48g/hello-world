@@ -26,6 +26,7 @@ plugins:
           paths: [..]
           options:
             ## backlinks: tree
+            members_order: source
             parameter_headings: true
             filters: ["!^_"]            # アンダースコアで始まるのを除外する
             separate_signature: false   # シグネチャを別途表示する

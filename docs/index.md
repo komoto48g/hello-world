@@ -2,14 +2,6 @@
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-:smile:
-
-!!! Note "注意点"
-    - これはリストの **1項目目** です
-    - これはリストの **2項目目** です
-    - これはリストの **3項目目** です
-
-
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
@@ -23,5 +15,10 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+
+# API Reference
+
+::: mylib.sample
 
 
