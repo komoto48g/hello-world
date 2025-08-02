@@ -9,12 +9,13 @@ theme:
   features:
     - navigation.expand     # サイドバー (ナビゲーション) を展開
     - navigation.indexes    # index.md を各ディレクトリのトップページとして扱う
-    - navigation.tabs       # 上にタブをつける
     - navigation.top        # 上に戻るボタンを表示する
+    - navigation.tabs       # 上にタブをつける
     - toc.integrate
 
 nav:
     - Home: index.md
+    - API reference: apiref.md
 
 plugins:
   - search
@@ -23,14 +24,14 @@ plugins:
       default_handler: python
       handlers:
         python:
-          paths: [..]
+          ## paths: ["."]
           options:
             ## backlinks: tree
-            members_order: source
-            parameter_headings: true
             filters: ["!^_"]            # アンダースコアで始まるのを除外する
-            separate_signature: false   # シグネチャを別途表示する
-            show_root_heading: true     # 見出しをルートによって階層的に表示する
+            members_order: source
+            parameter_headings: true    # パラメータを見出しに含める
+            separate_signature: true    # シグネチャを別途表示する
+            show_root_heading: true     # 見出しをルートから階層的に表示する
             show_root_full_path: true   # ルートの完全パスを表示する．例；package/module/class/meth/attr
             show_signature_annotations: true  # 型アノテーションをドキュメントに含める
             show_source: true               # ソースコード埋め込み
